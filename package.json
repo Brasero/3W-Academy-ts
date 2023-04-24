@@ -1,0 +1,23 @@
+{
+  "name": "3w-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brasero/3W-Academy-ts.git"
+  },
+  "author": "brandonricci4@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brasero/3W-Academy-ts/issues"
+  },
+  "homepage": "https://github.com/Brasero/3W-Academy-ts#readme",
+  "devDependencies": {
+    "tsc-watch": "^6.0.0",
+    "typescript": "^5.0.4"
+  }
+}
