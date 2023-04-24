@@ -43,9 +43,9 @@ const makeCouple = (list) => {
         //On va ensuite supprimer les deux nombres de notre liste de nombres
         //On utilise ici la fonction "splice" qui permet de supprimer un élément d'un tableau.
         //Elle prend en paramètre l'index de l'élément à partir dû quelle commencer la suppression et le nombre d'éléments à supprimer
+        //On utilise ici la fonction "findIndex" qui permet de trouver l'index d'un élément dans un tableau
         list.splice(list.findIndex((val) => val === val1), 1);
         list.splice(list.findIndex((val) => val === val2), 1);
-        list.sort();
     }
     return coupleList;
 };
